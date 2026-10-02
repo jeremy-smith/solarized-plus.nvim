@@ -1,0 +1,20 @@
+*solarized-plus.txt*  Neovim port of the VS Code "Solarized Dark+/Light+" theme
+
+==============================================================================
+USAGE                                                     *solarized-plus*
+
+    :colorscheme solarized-plus         dark variant
+    :colorscheme solarized-plus-light   light variant
+
+==============================================================================
+CONFIGURATION                                       *solarized-plus-setup*
+
+Call before |:colorscheme|: >lua
+    require("solarized-plus").setup({
+      style = nil,              -- "dark" | "light"
+      transparent = false,      -- no editor / sidebar background
+      gutter_background = true, -- base02 behind line numbers & signs
+      on_highlights = nil,      -- function(hl, c) ... end
+    })
+<
+ vim:tw=78:ts=8:ft=help:norl:
