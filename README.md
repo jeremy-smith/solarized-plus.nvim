@@ -4,6 +4,10 @@ A Neovim port of the VS Code theme
 [Solarized (ryanolsonx)](https://github.com/ryanolsonx/vscode-solarized-theme) —
 "Solarized Dark+" and "Solarized Light+".
 
+![Solarized Dark+](https://github.com/user-attachments/assets/755c0451-ea31-441f-96d9-6cfe610dd410)
+
+![Solarized Light+](https://github.com/user-attachments/assets/4875ad21-6e62-45db-8af1-dd6a73345712)
+
 - Colours taken directly from the VS Code theme (translucent colours pre-blended)
 - Same token rules: definitions blue, calls plain, keywords/operators green, types yellow,
   literals cyan, imports orange, regex red
